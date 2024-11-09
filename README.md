@@ -20,8 +20,7 @@ The Electricity Billing System is a user-friendly desktop application designed t
   
 # Running the Project:
 -->Steps:
-
-  Import the Project: Import the project into your IDE.
-  Configure Database Connection: Set up the database connection details in the code.
-  Build the Project: Use the build tool (Maven or Gradle) to build the project.
-  Run the Application: Execute the main class of the application.
+->Import the Project: Import the project into your IDE.
+->Configure Database Connection: Set up the database connection details in the code.
+->Build the Project: Use the build tool (Maven or Gradle) to build the project.
+->Run the Application: Execute the main class (Splash.java) of the application.
