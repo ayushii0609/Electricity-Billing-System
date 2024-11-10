@@ -102,6 +102,8 @@ public class Signup extends JFrame implements ActionListener{
         
         setVisible(true);
     }
+
+    //decides which action to performed in a certain click
     public void actionPerformed(ActionEvent ae){
         if(ae.getSource() == create){
             String actype=accountType.getSelectedItem();
