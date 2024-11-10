@@ -6,9 +6,9 @@ import java.awt.*;
 
 public class Splash extends JFrame implements Runnable {
     Thread t;
-    Splash() {
+    //Constructor
+    Splash() {     
         ImageIcon i1=new ImageIcon(ClassLoader.getSystemResource("icon/welcome.jpg"));
-        
         Image i2 = i1.getImage().getScaledInstance(730,550,Image.SCALE_DEFAULT);
         ImageIcon i3=new ImageIcon(i2);
         JLabel image=new JLabel(i3);
@@ -46,6 +46,6 @@ public class Splash extends JFrame implements Runnable {
         }
     }
     public static void main(String[] args) {
-        new Splash();
+        new Splash(); //object of Splash class
     }
 }
