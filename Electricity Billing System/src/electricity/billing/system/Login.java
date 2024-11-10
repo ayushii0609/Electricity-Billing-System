@@ -99,9 +99,13 @@ public class Login extends JFrame implements ActionListener{
                 e.printStackTrace();
             }
         }
+
+        //login frame closes
         else if(ae.getSource()==cancel) {
             setVisible(false);
         }
+
+        //login frame closes...signup opens
         else if(ae.getSource()==signup) {
             setVisible(false);
 
